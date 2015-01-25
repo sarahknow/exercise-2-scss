@@ -1,0 +1,13 @@
+/* This file imports all you scss partials to be compiled in one stylesheet, 
+which you can attach to your html.
+
+All the files that are prefixed with an underscore
+"_name-of-file.scss" are called partials - meaning
+that their css isn't compiled unless its imported into an 
+unprefixed .scss file */
+/* are placeholders for storing information that you want to reuse throughout your styles. 
+ You can store things like colors, font-stacks or any css value you think you might want to resuse. 
+ SCSS uses the '$' symbol to declare variables */
+/* line 1, /Users/fivemaples/Desktop/ALGONQUIN 3rd/1-Semester II/Web Dev II/exercise-2-scss/scss/components/main */
+html {
+  background: #FF6C5F; }
