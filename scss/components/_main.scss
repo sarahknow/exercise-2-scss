@@ -1,3 +1,68 @@
-html {
-	background: $primary;
+
+body {	
+	background:$bgcolor;
 }
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+h1,h2 {
+font-family: $Raleway;
+text-transform:uppercase;
+color:$white;
+}
+
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size:14px;
+	font-weight: 300;
+}
+
+.sandbox {
+	text-align:center;
+	padding-top: 5rem;
+}
+
+.inner-box {
+	padding-top: 3rem;
+}
+
+a { 
+text-decoration: none;
+color: white;
+font-size: 30px;
+margin: 1rem;
+padding: 1rem;
+border-radius: 12px;
+border: 3px dashed $bgcolor;
+}
+
+a:hover {
+	color:$accent;
+	border-radius: 12px;
+	border: 3px dashed $accent;
+	padding: 1rem;
+	margin: 1rem;
+	transition:color 0.8s;
+	transition: border 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
